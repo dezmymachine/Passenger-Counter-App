@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+/* Styles for container */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5rem;
+    max-width: 800px;
+    background:rgba(171, 100, 75,0.5);
+    border: 0.2rem solid white;
+    border-radius: 0.2rem;
+}
+
+/* Styles for button */
+button {
+    border: 0.2rem solid white;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+    width: 200px;
+    cursor: pointer;
+}
+
+#increment-btn{
+    background-color: #424530;
+    font-weight: bold;
+    font-size: large;
+}
+#increment-btn:hover{
+    filter: brightness(150%);
+}
+
+#save-btn {
+    background-color: #e09132;
+    font-weight: bold;
+    font-size: large;
+}
+#save-btn:hover{
+    filter: brightness(90%);
+}
+#entriesDisplay{
+    font-weight: bold;
+    font-size: 30px;
+}
